@@ -1,2 +1,1 @@
-# OTickets
-A fullstack Vue-Laravel Ticket service Web Application
+A fullstack (Vue-Laravel) web application.
