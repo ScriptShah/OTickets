@@ -21,9 +21,9 @@ class DatabaseSeeder extends Seeder
         User::factory()
             ->admin()
             ->create([
-                'name'     => 'OmaghD',
-                'email'    => 'contact@omaghd.com',
-                'password' => 'OTickets@00'
+                'name'     => 'AdminTest',
+                'email'    => 'test@admin.com',
+                'password' => 'admin123'
             ]);
         Department::factory()
             ->count(4)
