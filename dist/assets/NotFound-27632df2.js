@@ -1,1 +1,0 @@
-import{d as e,u as o,c as t,o as a}from"./index-28d7808a.js";import{a as n}from"./global-6426d760.js";const d=e({__name:"NotFound",setup(r){return o({title:`Not Found | ${n}`}),(s,p)=>(a(),t("div",null,"Not Found"))}});export{d as default};

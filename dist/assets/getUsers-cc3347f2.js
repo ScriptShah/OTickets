@@ -1,1 +1,0 @@
-import{b as a,y as n}from"./index-28d7808a.js";const d=s=>{const t=a({}),r=a([]),o=a(!1),e=a(!1);return{load:async()=>{e.value=!0,await n.get("/users",{params:s.value}).then(l=>{s.value.paginate?t.value=l.data.data:r.value=l.data.data}).catch(()=>o.value=!0).then(()=>e.value=!1)},users:r,paginatedUsers:t,error:o,isLoading:e}};export{d as g};
