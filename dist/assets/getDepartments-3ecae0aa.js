@@ -1,0 +1,1 @@
+import{b as a,y as l}from"./index-28d7808a.js";const c=(e=a({}))=>{const s=a([]),n=a({}),r=a(!1),t=a(!1);return{load:async()=>{t.value=!0,await l.get("/departments",{params:e.value}).then(o=>{e.value.paginate?n.value=o.data.data:s.value=o.data.data}).catch(()=>r.value=!0).then(()=>t.value=!1)},departments:s,paginatedDepartments:n,error:r,isLoading:t}};export{c as g};

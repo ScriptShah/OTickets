@@ -1,0 +1,1 @@
+import{d as e,c as o,t as n,o as a}from"./index-28d7808a.js";const s=["for"],m=e({__name:"FormLabel",props:{id:null,text:null},setup(t){return(l,r)=>(a(),o("label",{for:t.id,class:"mb-1 block text-sm font-medium text-gray-700"},n(t.text),9,s))}});export{m as _};

@@ -1,0 +1,1 @@
+import{d as t,o as s,c as a,g as l,t as o,C as n}from"./index-28d7808a.js";const m=t({__name:"SectionHeader",props:{title:null,customClass:{default:"text-xl font-semibold"}},setup(e){return(c,r)=>(s(),a("header",null,[l("h1",{class:n(e.customClass)},o(e.title),3)]))}});export{m as _};
